@@ -30,11 +30,10 @@
                 </div>
                 <div class="text-center">
                     <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                        "Precision Components Hub: Explore, Create, Innovate"
+                        Components Hub: Explore, Create, Innovate
                     </h1>
                     <p class="mt-6 text-lg leading-8 text-gray-300">
-                        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
-                        commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+                        Svelte Templates and Components for developers with Amazing UI and functionalities
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
                         <a
