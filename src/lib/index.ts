@@ -5,6 +5,11 @@ import Nav4 from "./allNav/nav4.svelte";
 import Nav5 from "./allNav/nav5.svelte";
 import Nav6 from "./allNav/nav6.svelte";
 
+//all navs till here
+
+import Hero1 from "./allHero/hero1.svelte";
+import Hero2 from "./allHero/hero2.svelte";
+
 // place files you want to import through the `$lib` alias in this folder.
 export let allnavs=[
     {
@@ -242,11 +247,11 @@ export let allnavs=[
         comp:Nav3,
         code:'timmyyyyyy'
     },
-    // {
-    //     name:'simplenav4',
-    //     comp:Nav4,
-    //     code:'timmyyyyyy'
-    // },
+    {
+        name:'simplenav4',
+        comp:Nav4,
+        code:'timmyyyyyy'
+    },
     // {
     //     name:'simplenav5',
     //     comp:Nav5,
@@ -257,4 +262,18 @@ export let allnavs=[
     //     comp:Nav6,
     //     code:'timmyyyyyy'
     // }
+]
+
+export let allheros=[
+    {
+        name:'hero1',
+        comp:Hero1,
+        code:'boinggggg'
+        
+    },
+    {
+        name:'hero2',
+        comp:Hero2,
+        code:'boinggggg'
+    }
 ]
