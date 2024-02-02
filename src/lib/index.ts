@@ -10,6 +10,13 @@ import Nav6 from "./allNav/nav6.svelte";
 import Hero1 from "./allHero/hero1.svelte";
 import Hero2 from "./allHero/hero2.svelte";
 
+//all heros till here
+
+import Btn1 from "./allButton/btn1.svelte";
+import Btn2 from "./allButton/btn2.svelte";
+import Btn3 from "./allButton/btn3.svelte";
+import Btn4 from "./allButton/btn4.svelte";
+
 // place files you want to import through the `$lib` alias in this folder.
 export let allnavs=[
     {
@@ -274,6 +281,30 @@ export let allheros=[
     {
         name:'hero2',
         comp:Hero2,
+        code:'boinggggg'
+    }
+]
+
+export let allButtons=[
+    {
+        name:'button1',
+        comp:Btn1,
+        code:'boinggggg'
+        
+    },
+    {
+        name:'button2',
+        comp:Btn2,
+        code:'boinggggg'
+    },
+    {
+        name:'button3',
+        comp:Btn3,
+        code:'boinggggg'
+    },
+    {
+        name:'button4',
+        comp:Btn4,
         code:'boinggggg'
     }
 ]

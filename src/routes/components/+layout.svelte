@@ -19,7 +19,7 @@
         },
         {
             name: 'Buttons',
-            link: '',
+            link: '/components/buttons',
             icon: Users
         },
         {
