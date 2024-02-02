@@ -1,7 +1,7 @@
 <!-- Dark Side bar with Profile icon on right -->
 <script>
     import { page } from '$app/stores';
-    import { CalendarCheck2, Files, FolderClosed, Home, PieChart, Users } from 'lucide-svelte';
+    import { CalendarCheck2, Files, FolderClosed, Home, PieChart, Users, } from 'lucide-svelte';
     import headIcon from '$lib/headerIcon.png';
 
     let isMobileMenu = false;
@@ -18,48 +18,100 @@
             icon: FolderClosed
         },
         {
-            name: 'Teams',
+            name: 'Buttons',
             link: '',
             icon: Users
         },
         {
-            name: 'Documents',
+            name: 'Card',
             link: '',
             icon: Files
         },
         {
-            name: 'Reports',
+            name: 'Collapse',
             link: '',
             icon: PieChart
         },
         {
-            name: 'Calendar',
+            name: 'Forms',
             link: '',
             icon: CalendarCheck2
-        }
-    ];
-    let teams = [
-        {
-            name: 'Frontend Team',
-            link: '#',
-            icon: 'F'
         },
         {
-            name: 'UI Designers',
-            link: '#',
-            icon: 'U'
+            name: 'Footer',
+            link: '',
+            icon: Users
         },
         {
-            name: 'System Designers',
-            link: '#',
-            icon: 'S'
-        }
+            name: 'Mockup',
+            link: '',
+            //https://daisyui.com/components/mockup-code/
+            icon: Files
+        },
+        {
+            name: 'Table',
+            link: '',
+            icon: PieChart
+        },
+        {
+            name: 'Modal',
+            link: '',
+            icon: CalendarCheck2
+        },
+        // {
+        //     name: 'Nav',
+        //     link: '',
+        //     icon: Users
+        // },
+        // {
+        //     name: 'Pagination',
+        //     link: '',
+        //     icon: Files
+        // },
+        // {
+        //     name: 'Sidebar',
+        //     link: '',
+        //     icon: PieChart
+        // },
+        // {
+        //     name: 'Table',
+        //     link: '',
+        //     icon: CalendarCheck2
+        // },
+        // {
+        //     name: 'Tabs',
+        //     link: '',
+        //     icon: Users
+        // },
+        // {
+        //     name: 'Tooltip',
+        //     link: '',
+        //     icon: Files
+        // }
+
     ];
+    // let teams = [
+    //     {
+    //         name: 'Frontend Team',
+    //         link: '#',
+    //         icon: 'F'
+    //     },
+    //     {
+    //         name: 'UI Designers',
+    //         link: '#',
+    //         icon: 'U'
+    //     },
+    //     {
+    //         name: 'System Designers',
+    //         link: '#',
+    //         icon: 'S'
+    //     }
+    // ];
     let webdata = {
         img: headIcon ,
-        profileName: 'Saloni Maheshwari',
+        profileName: 'Code WareHouse',
         email: 'Tom Cook',
-        profileImg: 'https://i.pinimg.com/564x/f9/26/be/f926bef1490ab447798ccd012c2e8040.jpg',
+        profileImg: 'https://i.pinimg.com/564x/f5/6b/84/f56b848634acf5313132a33ee0f1bd8a.jpg',
         profileLink: '#',
         topic:'Dashboard'
     };
@@ -164,12 +216,12 @@
                                     {/each}
                                 </ul>
                             </li>
-                            <li>
+                            <!-- Current: "bg-gray-800 text-white", Default: "text-gray-400 hover:text-white hover:bg-gray-800" -->
+                            <!-- <li>
                                 <div class="text-xs font-semibold leading-6 text-gray-400">Your teams</div>
                                 <ul role="list" class="-mx-2 mt-2 space-y-1">
                                     {#each teams as item}
                                         <li>
-                                            <!-- Current: "bg-gray-800 text-white", Default: "text-gray-400 hover:text-white hover:bg-gray-800" -->
                                             <a
                                                 href={item.link}
                                                 class="text-gray-400 hover:text-white hover:bg-gray-800 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
@@ -183,7 +235,7 @@
                                         </li>
                                     {/each}
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
                     </nav>
                 </div>
@@ -221,12 +273,12 @@
                             {/each}
                         </ul>
                     </li>
-                    <li>
+                    <!-- Current: "bg-gray-800 text-white", Default: "text-gray-400 hover:text-white hover:bg-gray-800" -->
+                    <!-- <li>
                         <div class="text-xs font-semibold leading-6 text-gray-400">Your teams</div>
                         <ul role="list" class="-mx-2 mt-2 space-y-1">
                             {#each teams as item}
                                 <li>
-                                    <!-- Current: "bg-gray-800 text-white", Default: "text-gray-400 hover:text-white hover:bg-gray-800" -->
                                     <a
                                         href={item.link}
                                         class="text-gray-400 hover:text-white hover:bg-gray-800 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold transition-all duration-150"
@@ -240,7 +292,7 @@
                                 </li>
                             {/each}
                         </ul>
-                    </li>
+                    </li> -->
                     <li class="-mx-6 mt-auto">
                         <a
                             href={webdata.profileLink}
