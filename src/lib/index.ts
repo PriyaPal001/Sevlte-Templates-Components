@@ -242,19 +242,19 @@ export let allnavs=[
         comp:Nav3,
         code:'timmyyyyyy'
     },
-    {
-        name:'simplenav4',
-        comp:Nav4,
-        code:'timmyyyyyy'
-    },
-    {
-        name:'simplenav5',
-        comp:Nav5,
-        code:'timmyyyyyy'
-    },
-    {
-        name:'simplenav6',
-        comp:Nav6,
-        code:'timmyyyyyy'
-    }
+    // {
+    //     name:'simplenav4',
+    //     comp:Nav4,
+    //     code:'timmyyyyyy'
+    // },
+    // {
+    //     name:'simplenav5',
+    //     comp:Nav5,
+    //     code:'timmyyyyyy'
+    // },
+    // {
+    //     name:'simplenav6',
+    //     comp:Nav6,
+    //     code:'timmyyyyyy'
+    // }
 ]

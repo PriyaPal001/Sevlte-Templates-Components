@@ -291,7 +291,7 @@
         <div class="px-4 sm:px-6 lg:px-8">
             <!-- Your content -->
             <slot/>
-            Your Content
+            <!-- Your Content -->
         </div>
     </main>
 </div>
