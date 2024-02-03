@@ -1,6 +1,6 @@
 <script lang="ts">
 	import BtnCopy from '$lib/home/btnCopy.svelte';
-import { allheros } from '$lib/index.ts';
+import { allheros } from '$lib/index';
     import {copy} from 'svelte-copy';
     let btntext='Copy';
 

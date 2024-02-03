@@ -1,6 +1,6 @@
 <script lang="ts">
 	import BtnCopy from '$lib/home/btnCopy.svelte';
-import { allButtons } from '$lib/index';
+import { allCards } from '$lib/index';
     import {copy} from 'svelte-copy';
     let btntext='Copy';
 
@@ -13,9 +13,9 @@ import { allButtons } from '$lib/index';
     
 </script>
 
-<div class="w-1/3 col-span-2 lg:col-span -1">
+<div >
 
-    {#each allButtons as items}
+    {#each allCards as items}
     <div class="flex justify-between pr-10">
         <h1 class="text-white font-semibold text-lg underline-offset-4">{items.name}</h1>
         <div class="">

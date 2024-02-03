@@ -24,7 +24,7 @@
         },
         {
             name: 'Card',
-            link: '',
+            link: '/components/card',
             icon: Files
         },
         {
