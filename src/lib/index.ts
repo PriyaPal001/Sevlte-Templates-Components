@@ -22,6 +22,10 @@ import Btn4 from "./allButton/btn4.svelte";
 import Card1 from "./allCard/card1.svelte";
 import Card2 from "./allCard/card2.svelte";
 import Card3 from "./allCard/card3.svelte";
+import Card4 from "./allCard/card4.svelte";
+import Card5 from "./allCard/card5.svelte";
+import Card6 from "./allCard/card6.svelte";
+
 
 // place files you want to import through the `$lib` alias in this folder.
 export let allnavs=[
@@ -330,6 +334,21 @@ export let allCards=[
     {
         name:'card3',
         comp:Card3,
+        code:'boinggggg'
+    },
+    {
+        name:'card4',
+        comp:Card4,
+        code:'boinggggg'
+    },
+    {
+        name:'card5',
+        comp:Card5,
+        code:'boinggggg'
+    },
+    {
+        name:'card6',
+        comp:Card6,
         code:'boinggggg'
     }
 ]
