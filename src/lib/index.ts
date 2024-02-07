@@ -26,6 +26,10 @@ import Card4 from "./allCard/card4.svelte";
 import Card5 from "./allCard/card5.svelte";
 import Card6 from "./allCard/card6.svelte";
 
+//all cards till here
+
+import Caro1 from "./allcarousel/caro1.svelte";
+
 
 // place files you want to import through the `$lib` alias in this folder.
 export let allnavs=[
@@ -269,16 +273,16 @@ export let allnavs=[
         comp:Nav4,
         code:'timmyyyyyy'
     },
-    // {
-    //     name:'simplenav5',
-    //     comp:Nav5,
-    //     code:'timmyyyyyy'
-    // },
-    // {
-    //     name:'simplenav6',
-    //     comp:Nav6,
-    //     code:'timmyyyyyy'
-    // }
+    {
+        name:'simplenav5',
+        comp:Nav5,
+        code:'timmyyyyyy'
+    },
+    {
+        name:'simplenav6',
+        comp:Nav6,
+        code:'timmyyyyyy'
+    }
 ]
 
 export let allheros=[
@@ -350,5 +354,14 @@ export let allCards=[
         name:'card6',
         comp:Card6,
         code:'boinggggg'
+    }
+]
+
+export let allCaros=[
+    {
+        name:'carousel1',
+        comp:Caro1,
+        code:'boinggggg'
+        
     }
 ]

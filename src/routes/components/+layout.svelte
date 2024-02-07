@@ -28,8 +28,8 @@
             icon: Files
         },
         {
-            name: 'Collapse',
-            link: '',
+            name: 'Carousel',
+            link: '/components/carousel',
             icon: PieChart
         },
         {
@@ -339,7 +339,7 @@
         </a>
     </div>
 
-    <main class="py-10 lg:pl-72 bg-gray-900 h-auto ">
+    <main class="py-10 lg:pl-72 bg-gray-900  ">
         <div class="px-4 sm:px-6 lg:px-8">
             <!-- Your content -->
             <slot/>

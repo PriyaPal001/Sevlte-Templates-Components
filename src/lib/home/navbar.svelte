@@ -122,7 +122,7 @@
 				</button>
 			</div>
 			<div class="hidden lg:flex lg:gap-x-12">
-				<div>
+				<!-- <div>
 					<button
 						type="button"
 						class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white border-none outline-none"
@@ -157,7 +157,7 @@
 									class="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-900 bg-gradient-to-r from-indigo-600/20 to-indigo-900/20"
 								>
 									<div class="flex h-11 w-11 items-center justify-center rounded-lg">
-										<!-- {@html item.icon} -->
+										
 										<img src={item.icon} alt="" />
 									</div>
 									<a
@@ -201,7 +201,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				{#each allData.navs as item}
 					<a href={item.link} class="text-sm font-semibold leading-6 text-white">{item.name}</a>
