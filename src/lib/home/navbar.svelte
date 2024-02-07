@@ -214,7 +214,7 @@
 			</div>
 		</nav>
 		<!-- Mobile menu, show/hide based on menu open state. -->
-		<div class="{isMobileMenu ? 'visible' : 'hidden'} lg:hidden" role="dialog" aria-modal="true">
+		<div class="{isMobileMenu ? 'visible' : 'hidden'} lg:hidden z-50" role="dialog" aria-modal="true">
 			<!-- Background backdrop, show/hide based on slide-over state. -->
 			<div class="{isMobileMenu ? 'visible' : 'hidden'} fixed inset-0 z-50" />
 			<div

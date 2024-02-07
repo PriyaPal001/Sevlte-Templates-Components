@@ -22,7 +22,7 @@ import { allnavs } from '$lib/index.ts';
             <BtnCopy code={items.code}/>
         </div>
     </div>
-    <div class="border-2 m-4 p-4 rounded-lg">
+    <div class="border-2 mt-2 mb-4 p-4 rounded-lg">
         
         <svelte:component this={items.comp} />
     </div>

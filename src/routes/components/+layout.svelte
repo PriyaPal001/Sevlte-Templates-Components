@@ -205,6 +205,7 @@
                                             <!-- Current: "bg-gray-800 text-white", Default: "text-gray-400 hover:text-white hover:bg-gray-800" -->
                                             <a
                                                 href={item.link}
+                                                on:click={() => (isMobileMenu = false)}
                                                 class="{routeID === item.link
                                                     ? 'bg-gray-800 text-white'
                                                     : 'text-gray-400 hover:text-white hover:bg-gray-800'}  group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"

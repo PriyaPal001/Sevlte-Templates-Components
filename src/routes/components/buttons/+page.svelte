@@ -21,15 +21,10 @@
 					<BtnCopy code={items.code} />
 				</div>
 			</div>
-			<div class="border-2 flex justify-center mt-2 p-4 rounded-lg w-full">
+			<div class="border-2 flex justify-center mt-2 mb-4  p-4 rounded-lg w-full">
 				<svelte:component this={items.comp} />
 			</div>
             </div>
 		{/each}
 </div>
-<!-- 
-<div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
-    <div class="h-32 rounded-lg bg-gray-200"></div>
-    <div class="h-32 rounded-lg bg-gray-200"></div>
-    <div class="h-32 rounded-lg bg-gray-200"></div>
-  </div> -->
+
