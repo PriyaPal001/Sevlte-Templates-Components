@@ -8,7 +8,7 @@ import Nav6 from "./allNav/nav6.svelte";
 //all navs till here
 
 import Hero1 from "./allHero/hero1.svelte";
-import Hero2 from "./allHero/hero2.svelte";
+import Hero2 from "./allHero/hero1.svelte";
 
 //all heros till here
 
@@ -273,16 +273,16 @@ export let allnavs=[
         comp:Nav4,
         code:'timmyyyyyy'
     },
-    {
-        name:'simplenav5',
-        comp:Nav5,
-        code:'timmyyyyyy'
-    },
-    {
-        name:'simplenav6',
-        comp:Nav6,
-        code:'timmyyyyyy'
-    }
+    // {
+    //     name:'simplenav5',
+    //     comp:Nav5,
+    //     code:'timmyyyyyy'
+    // },
+    // {
+    //     name:'simplenav6',
+    //     comp:Nav6,
+    //     code:'timmyyyyyy'
+    // }
 ]
 
 export let allheros=[
@@ -292,11 +292,11 @@ export let allheros=[
         code:'boinggggg'
         
     },
-    {
-        name:'hero2',
-        comp:Hero2,
-        code:'boinggggg'
-    }
+    // {
+    //     name:'hero2',
+    //     comp:Hero2,
+    //     code:'boinggggg'
+    // }
 ]
 
 export let allButtons=[
@@ -350,11 +350,11 @@ export let allCards=[
         comp:Card5,
         code:'boinggggg'
     },
-    {
-        name:'card6',
-        comp:Card6,
-        code:'boinggggg'
-    }
+    // {
+    //     name:'card6',
+    //     comp:Card6,
+    //     code:'boinggggg'
+    // }
 ]
 
 export let allCaros=[

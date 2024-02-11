@@ -123,12 +123,13 @@
 					<div
 						class=" {open
 							? 'opacity-100 visible translate-y-0 transition ease-out duration-200'
-							: 'opacity-0 hidden -translate-y-1 transition ease-out duration-200'} absolute inset-x-0 top-0 -z-10 bg-gray-900 pt-14 shadow-lg ring-1 ring-gray-900/5"
+							: 'opacity-0 hidden -translate-y-1 transition ease-out duration-200'} absolute inset-x-0 top-0 -z-10 bg-gray-800 pt-14 shadow-lg ring-1 ring-gray-900/5"
 					>
 						<div class="mx-auto grid max-w-7xl grid-cols-4 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8">
+							
 							{#each allData.products as item}
 								<div
-									class="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-900 bg-gradient-to-r from-indigo-600/20 to-indigo-900/20"
+									class="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-800 bg-gradient-to-r from-indigo-600/20 to-indigo-900/20 shadow-lg transition-all duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105"
 								>
 									<div class="flex h-11 w-11 items-center justify-center rounded-lg">
 										<!-- {@html item.icon} -->
@@ -141,7 +142,7 @@
 										{item.name}
 										<span class="absolute inset-0" />
 									</a>
-									<p class="mt-1 text-white group-hover:text-sky-500">
+									<p class="mt-1 text-white group-hover:text-black">
 										{item.desc}
 									</p>
 								</div>
